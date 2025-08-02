@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://diyprojects.com/wp-content/uploads/2016/08/diy-wood-font-style-on-wooden-DIY-Crafts-Sites-ss-FEATURED.jpg'); /* Your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  color: black;
+}
+
+
+.projects-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.form-container input,
+.form-container select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.form-container button {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.btn-group button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  background-color: #cc00b8;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-group button:last-child {
+  background-color: crimson;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #003366;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-links button {
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-links button:hover {
+  text-decoration: underline;
+}
+.landing {
+  height: 90vh;
+  background-image: url('https://diyprojects.com/wp-content/uploads/2016/08/diy-wood-font-style-on-wooden-DIY-Crafts-Sites-ss-FEATURED.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 60px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+}
