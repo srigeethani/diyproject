@@ -29,7 +29,7 @@ export async function POST(request) {
       {
         success: true,
         message: 'Login successful',
-        userId: existingUser.userId, // use .userId if you auto-generated UID1, UID2...
+        userId: existingUser.userId, 
       },
       { status: 200 }
     );
